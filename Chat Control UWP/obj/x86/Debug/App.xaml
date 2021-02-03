@@ -1,0 +1,17 @@
+﻿<Application
+    x:Class="Chat_Control_UWP.App"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:converters="using:Chat_Control_UWP.Converters"
+    xmlns:local="using:Chat_Control_UWP">
+
+
+    <Application.Resources>
+        <ResourceDictionary>
+            <converters:TextControlVisibilityConverter x:Key="textVisiConverter" />
+            <converters:ImgControlVisibilityConverter x:Key="imgVisiConverter" />
+        </ResourceDictionary>
+      
+    </Application.Resources>
+</Application>
+

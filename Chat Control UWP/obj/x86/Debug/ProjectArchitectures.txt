@@ -1,0 +1,1 @@
+E:\Github\Chat-Control-UWP\Chat Control UWP\Chat Control UWP.csproj;x86
